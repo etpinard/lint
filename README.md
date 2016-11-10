@@ -35,7 +35,7 @@ to fail immediately on ES6 (or even ES7) tokens and sugar. For some reason,
 `standard` assumes that everybody writes bleeding edge JS, unfortunately.
 
 Luckily, the [`standard-engine`](https://github.com/flet/standard-engine) module
-makes this very write custom linters like this thing here. :beers:
+makes is very easy to write custom linters like this thing here. :beers:
 
 ## Possible new rules down the road
 
