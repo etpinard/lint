@@ -1,0 +1,98 @@
+{
+  "rules": {
+    "no-trailing-spaces": [2],
+    "no-irregular-whitespace": [2],
+
+    "no-multi-spaces": [2],
+    "no-multiple-empty-lines": [2, {"max": 2, "maxEOF": 0}],
+    "no-unexpected-multiline": [2],
+    "eol-last": [2],
+
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "no-tabs": [2],
+
+    "brace-style": [2, "stroustrup", {"allowSingleLine": true}],
+    "curly": [2, "multi-line"],
+    "operator-linebreak": [2, "before"],
+
+    "space-before-blocks": [2],
+    "block-spacing": [2, "always"],
+    "no-lone-blocks": [2],
+    "no-lonely-if": [2],
+
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "comma-style": [2, "last"],
+    "comma-dangle": [2, "never"],
+
+    "semi": [2, "never"],
+    "semi-spacing": [2, {"before": false, "after": true}],
+
+    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "keyword-spacing": [2, {"overrides": {
+      "if": {"after": false},
+      "for": {"after": false},
+      "while": {"after": false},
+      "switch": {"after": false},
+      "catch": {"after": false}
+    }}],
+
+    "no-loop-func": [2],
+    "no-inner-declarations": [2],
+
+    "no-spaced-func": [2],
+    "space-in-parens": [2, "never"],
+    "space-before-function-paren": [2, "never"],
+    "func-call-spacing": [2],
+
+    "quotes": [2, "single"],
+
+    "dot-notation": [2],
+    "dot-location": [2, "property"],
+    "no-whitespace-before-property": [2],
+    "computed-property-spacing": [2, "never"],
+
+    "consistent-this": [2, "_this"],
+    "new-cap": [2],
+
+    "no-floating-decimal": [2],
+    "space-infix-ops": [2, {"int32Hint": true}],
+    "space-unary-ops": [2, { "words": true, "nonwords": false }],
+
+    "eqeqeq": [2],
+    "no-eq-null": [2],
+    "use-isnan": [2],
+    "valid-typeof": [2, { "requireStringLiterals": true }],
+
+    "no-global-assign": [2],
+    "no-extend-native": [2],
+    "no-new-wrappers": [2],
+
+    "no-shadow": [2, { "builtinGlobals": true, "allow": ["done", "err", "cb", "resolve", "reject"]} ],
+    "no-shadow-restricted-names": [2],
+
+    "block-scoped-var": [2],
+    "one-var-declaration-per-line": [2, "initializations"],
+    "newline-after-var": [2, "always"],
+
+    "no-unused-vars": [2],
+    "no-unused-labels": [2],
+
+    "no-undef-init": [2],
+    "no-use-before-define": [2, "nofunc"],
+    "no-unreachable": [2],
+
+    "no-console": [2],
+    "no-debugger": [2],
+    "no-alert": [2],
+
+    "no-eval": [2],
+    "no-implied-eval": [2],
+    "no-with": [2],
+    "no-delete-var": [2],
+
+    "wrap-iife": [2],
+
+    "spaced-comment": [2, "always"],
+    "no-inline-comments": [2]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@etpinard/lint",
+  "version": "1.0.0",
+  "description": "my personal linter, not for you",
+  "main": "index.js",
+  "bin": {
+    "lint-es5": "bin/es5",
+    "lint-es6": "bin/es6"
+  },
+  "author": "Étienne Tétreault-Pinard",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.9.1",
+    "require-directory": "^2.1.1",
+    "standard-engine": "^5.1.1"
+  }
+}
