@@ -39,6 +39,7 @@ makes it very easy to write custom linters like this thing here. :beers:
 
 ## Possible new rules down the road
 
+- https://github.com/feross/snazzy/blob/master/bin/cmd.js
 - http://eslint.org/docs/rules/camelcase
 - http://eslint.org/docs/rules/array-bracket-spacing
 - http://eslint.org/docs/rules/object-curly-spacing
