@@ -11,7 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^3.9.1",
+    "minimist": "^1.2.0",
     "require-directory": "^2.1.1",
+    "snazzy": "^5.0.0",
     "standard-engine": "^5.1.1"
   }
 }
